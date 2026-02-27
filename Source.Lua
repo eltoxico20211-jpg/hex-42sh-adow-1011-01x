@@ -208,7 +208,7 @@ function Xerz:CreateWindow(Name)
 
     local function CreateNodes(Container)
     local Points = {}
-    local NumPoints = 25
+    local NumPoints = 30
     
     local NodesFrame = Create("Frame", {
         Name = "NodesContainer",
@@ -1255,6 +1255,7 @@ end
 print("¡XERZ UI LOADED!")
 
 return Xerz
+
 
 
 
