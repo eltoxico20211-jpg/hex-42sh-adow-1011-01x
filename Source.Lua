@@ -1250,5 +1250,6 @@ end
     return ColorFrame
 end
 
-return Xerz
+print("¡XERZ UI LOADED!")
 
+return Xerz
