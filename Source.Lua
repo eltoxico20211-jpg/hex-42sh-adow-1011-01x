@@ -415,7 +415,6 @@ end)
 
     CloseBtn.MouseButton1Click:Connect(function()
     ConfirmFrame.Visible = true
-    Xerz:Tween(ConfirmFrame, 0.4, {Position = UDim2.new(0, 0, 0, 0)})
 end)
 
     MiniBtn.MouseButton1Click:Connect(function()
@@ -1252,3 +1251,4 @@ end
 end
 
 return Xerz
+
