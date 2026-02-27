@@ -420,6 +420,7 @@ end)
     MiniBtn.MouseButton1Click:Connect(function()
         ShadowHolder.Visible = false
         OpenBtn.Visible = true
+        Xerz:Tween(ConfirmFrame, 0.4, {Position = UDim2.new(0, 0, 0, 0)})
     end)
 
     OpenBtn.MouseButton1Click:Connect(function()
@@ -1253,3 +1254,4 @@ end
 print("¡XERZ UI LOADED!")
 
 return Xerz
+
