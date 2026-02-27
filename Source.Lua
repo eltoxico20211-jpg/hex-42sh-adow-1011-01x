@@ -8,6 +8,7 @@ local Xerz = {
         ["Eye"] = "rbxassetid://70829415657717",
         ["Zap"] = "rbxassetid://116065554792972",
         ["Key"] = "rbxassetid://102150703754287",
+        ["Car"] = "rbxassetid://119556653362090",
         ["Gem"] = "rbxassetid://89116087127715",
         ["Link"] = "rbxassetid://80640582703367",
         ["Info"] = "rbxassetid://115433979237671",
@@ -1254,5 +1255,6 @@ end
 print("¡XERZ UI LOADED!")
 
 return Xerz
+
 
 
