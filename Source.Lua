@@ -1251,39 +1251,5 @@ end
     return ColorFrame
 end
 
-local Lib = Xerz:CreateWindow("Xerz Lib v2")
-local MainTab = Lib:CreateTab("Home")
-local SettingsTab = Lib:CreateTab("Settings")
-
-MainTab:AddButton("Test Button", function()
-    print("Funciona perfectamente!")
-end)
-
-MainTab:AddToggle("Auto Farm", false, function(state)
-    if state then
-        print("Farm Activado")
-    else
-        print("Farm Desactivado")
-    end
-end)
-
-MainTab:AddSlider("WalkSpeed", 16, 200, 16, function(value)
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
-end)
-
-MainTab:AddDropdown("Select Weapon", {"Sword", "Bow", "Axe", "Magic"}, function(selected)
-    print("Has seleccionado: " .. selected)
-end)
-
-MainTab:AddInput("WalkSpeed", "Default: 16", function(val)
-    local speed = tonumber(val)
-    if speed then
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = speed
-        print("Velocidad cambiada a: " .. speed)
-    end
-end)
-
-SettingsTab:AddColorPicker("Menu Accent", Xerz.Theme.Accent, function(color)
-    Xerz.Theme.Accent = color
-    print("Nuevo color seleccionado:", color)
-end)
+return Xerz
+end
